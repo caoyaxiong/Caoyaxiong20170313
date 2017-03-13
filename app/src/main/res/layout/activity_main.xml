@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   >
+
+    <com.bwie.test.CircleNumberProgress
+        android:id="@+id/cnp_citcleNumberProgress"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:layout_margin="20dp"
+        android:background="#33897500"/>
+
+    <Button
+        android:id="@+id/btn_numberProgressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="开始"/>
+    <Button
+        android:id="@+id/replys"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="重置"/>
+
+</LinearLayout>
